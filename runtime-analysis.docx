@@ -1,0 +1,31 @@
+
+
+Extra Large array
+insert 970.748613 ms
+append 3.471685 ms
+
+Large array
+insert 6.827236 ms
+append 753.824 μs
+
+Medium Array
+insert 170.12 μs
+append 161.576 μs
+
+Small array
+insert 117.46 μs
+append 112.591 μs
+
+Tiny array
+A:100.655 μs
+I:102.784 μs
+ 
+
+
+Read over the results, and write a paragraph that explains the pattern you see. How does each function “scale”? Which of the two functions scales better? How can you tell?
+
+
+The pattern that I see is that when the array's get larger and it eventually becomes larger than the function using .push. Therefore I say it is better to use the function with .push because the runtime is smaller that the other function. The reason why .unshift is not as good as function because it has to move all the numbers that are in the array which is the slowest solution.
+
+
+

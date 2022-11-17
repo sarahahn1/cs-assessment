@@ -53,7 +53,7 @@ let resultsAppend = perf.stop();  // Stops timer and save time results
 
 // Try it with second function
 perf.start();
-doublerInsert(tinyArray);
+doublerInsert(extraLargeArray);
 let resultsInsert = perf.stop();
 
 
